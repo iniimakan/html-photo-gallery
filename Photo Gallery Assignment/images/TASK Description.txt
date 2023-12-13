@@ -1,0 +1,36 @@
+Task: Build Simple Page photo Gallery
+
+ 
+
+See attached for components.
+
+ 
+TASK DESCRIPTION
+Your task is to create a Single Page Gallery. Follow the instruction below
+
+
+Submission: 40%
+
+Task should be submitted on or before 9am on Monday, Dec 4
+ 
+
+Completeness: 40%
+
+Ensure that the every component on the page is added or replicated
+Components to include:
+Banner; including the buttons and texts on the banner 20%
+Photo area; including the topic, tab buttons and photos 20%
+Correctness: 20%
+
+Component in your work should look exactly like the component in the UI Interface
+ 
+
+The Learners will be required to upload this task on the LMS as assignment on the HTML/CSS Course Folder.
+
+ 
+
+Thank you.
+
+ 
+
+Regards,

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 14px;
+}
+h2{
+    font-size: 40px;
+    margin: 7px 0 9
+    px 0;
+}
+header .navbar{
+    background-image: linear-gradient(to top, transparent 10%, black 100%), url(../images/1.jpg);
+    height: 60vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+header{
+    width: 100%;
+    
+}
+header .navbar .top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar .top-left{
+    font-size: 14px;
+}
+.navbar .top-right button{
+    font-size: 14px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+header .hero-section-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.hero-section-text p{
+    line-height: 1.7rem;
+    text-align:start;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.hero-section-text .hero-section-button button{
+    font-size: 14px;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 20px;
+    background-color: rgb(0, 160, 160);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-one-text{
+    margin-top: 10px;
+}
+.section-one-buttons button{ 
+    font-size: 14px;
+    margin:1.8rem 0 1.3rem .5rem;
+    border: none;
+    padding: 7px 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 160, 160);
+    color:#222;
+    cursor: pointer;
+}
+.section-one-buttons button.active{
+    background-color: rgb(0, 160, 160);
+    color: #fff;
+
+}
+.section-one-buttons button:hover{
+    color: #fff;
+    background-color: rgb(0, 160, 160);
+    transition: .5s;
+}
+.section-two-image{
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+}
+.section-two-image .image-one, .image-two, .image-three, .image-four{
+    height: 120px;
+    width: 190px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.section-two-image .image-one img, .image-two img, .image-three img, .image-four img{
+    height: 100%;
+    width: 190px;
+    object-fit: cover;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
